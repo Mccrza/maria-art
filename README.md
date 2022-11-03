@@ -1,2 +1,3 @@
 # maria-art
-Wepage for Maria G Artwork
+
+Website for Maria Grassi Artwork
