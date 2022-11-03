@@ -1,0 +1,182 @@
+.carousel-wrapper {
+  width: 520px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+          box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  border-radius: 20px;
+  margin: 100px auto 20px;
+}
+
+.carousel-container {
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  -webkit-animation: sliding 12s infinite;
+          animation: sliding 12s infinite;
+}
+
+.carousel div {
+  width: 400px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.carousel .image-one {
+  background-image: url("https://images.unsplash.com/photo-1480936600919-bffa6b7ecf1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+.carousel .image-two {
+  background-image: url("https://images.unsplash.com/photo-1475053081036-c8eb31d187b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+.carousel .image-three {
+  background-image: url("https://images.unsplash.com/photo-1525278070609-779c7adb7b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+@-webkit-keyframes sliding {
+  30% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  35% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  65% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  70% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  98% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes sliding {
+  30% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  35% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  65% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  70% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  98% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-wrapper {
+    width: 312px;
+    height: 210px;
+  }
+  .carousel-container {
+    width: 240px;
+    height: 150px;
+  }
+  .carousel {
+    width: 720px;
+  }
+  .carousel > div {
+    width: 240px;
+    height: 150px;
+  }
+  @-webkit-keyframes sliding {
+    30% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    35% {
+      -webkit-transform: translateX(-240px);
+              transform: translateX(-240px);
+    }
+    65% {
+      -webkit-transform: translateX(-240px);
+              transform: translateX(-240px);
+    }
+    70% {
+      -webkit-transform: translateX(-480px);
+              transform: translateX(-480px);
+    }
+    98% {
+      -webkit-transform: translateX(-480px);
+              transform: translateX(-480px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  @keyframes sliding {
+    30% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    35% {
+      -webkit-transform: translateX(-240px);
+              transform: translateX(-240px);
+    }
+    65% {
+      -webkit-transform: translateX(-240px);
+              transform: translateX(-240px);
+    }
+    70% {
+      -webkit-transform: translateX(-480px);
+              transform: translateX(-480px);
+    }
+    98% {
+      -webkit-transform: translateX(-480px);
+              transform: translateX(-480px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+}
+/*# sourceMappingURL=carousel.css.map */
