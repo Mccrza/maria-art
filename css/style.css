@@ -45,15 +45,83 @@
 }
 
 .carousel .image-one {
-  background-image: url("https://images.unsplash.com/photo-1480936600919-bffa6b7ecf1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-image: url("images/wood-chisel-closeup-small.jpeg");
 }
 
 .carousel .image-two {
-  background-image: url("https://images.unsplash.com/photo-1475053081036-c8eb31d187b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-image: url("images/turtle-wood-carving-small.jpeg");
 }
 
 .carousel .image-three {
-  background-image: url("https://images.unsplash.com/photo-1525278070609-779c7adb7b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-image: url("images/thumb-pallette-small.jpeg");
+}
+
+.carousel .image-four {
+  background-image: url("images/three-polaroids.jpeg");
+}
+
+.carousel .image-five {
+  background-image: url("images/ships-wheel.jpeg");
+}
+
+.carousel .image-six {
+  background-image: url("images/sculpture-molds.jpeg");
+}
+
+.carousel .image-seven {
+  background-image: url("images/red-orange-splash.jpeg");
+}
+
+.carousel .image-eight {
+  background-image: url("images/red-and-blue-resin-small.jpeg");
+}
+
+.carousel .image-nine {
+  background-image: url("images/pink-swirls.jpeg");
+}
+
+.carousel .image-ten {
+  background-image: url("images/purple-and-orange-resin-small.jpeg");
+}
+
+.carousel .image-eleven {
+  background-image: url("images/pineapple-photo.jpeg");
+}
+
+.carousel .image-twelve {
+  background-image: url("images/painted-boxes.jpeg");
+}
+
+.carousel .image-thirteen {
+  background-image: url("images/octopus-painting.jpeg");
+}
+
+.carousel .image-fourteen {
+  background-image: url("images/messy-paints-on-tarp-small.jpeg");
+}
+
+.carousel .image-fifteen {
+  background-image: url("images/marias-hands-small.jpeg");
+}
+
+.carousel .image-sixteen {
+  background-image: url("images/goldfish-epoxy-small.jpeg");
+}
+
+.carousel .image-seventeen {
+  background-image: url("images/double-vision-mason-jars.jpeg");
+}
+
+.carousel .image-eighteen {
+  background-image: url("images/bricks.jpeg");
+}
+
+.carousel .image-nineteen {
+  background-image: url("images/abstract-small.jpeg");
+}
+
+.carousel .image-twenty {
+  background-image: url("images/airplane-polaroid.jpeg");
 }
 
 @-webkit-keyframes sliding {
