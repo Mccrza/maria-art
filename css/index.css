@@ -1,0 +1,29 @@
+.vertical-menu-wrapper {
+  text-decoration: none !important;
+}
+
+.vertical-menu {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  width: 200px;
+  text-decoration: none !important;
+}
+
+.vertical-links a {
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04aa6d;
+  color: white;
+}
