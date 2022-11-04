@@ -4,59 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" src="css/index.css" />
+    <link rel="stylesheet" type="text/css" src="index.css" />
     <title>Maria Grassi Artwork&copy;</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <style>
-      .slideshow {
-        margin: auto;
-        width: 40%;
-        border: 3px solid #73ad21;
-        padding: 10px;
-      }
-
-      .slideshow img {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-    <script>
-      $(document).ready(function () {
-        var pic = $("img:first");
-        var images = [
-          "images/ships-wheel.jpg",
-          "images/messy-paints-on-tarp-small.jpg",
-          "images/wood-chisel-closeup-small.jpg",
-          "images/turtle-wood-carving-small.jpg",
-          "images/thumb-pallette-small.jpg",
-          "images/three-polaroids.jpg",
-          "images/sculpture-molds.jpg",
-          "images/red-orange-splash.jpg",
-          "images/red-and-blue-resin-small.jpg",
-          "images/purple-and-orange-resin-small.jpg",
-          "images/pink-swirls.jpg",
-          "images/pineapple-photo.jpg",
-          "images/painted-boxes.jpg",
-          "images/octopus-painting.jpg",
-          "images/marias-hands-small.jpg",
-          "images/goldfish-epoxy-small.jpg",
-          "images/double-vision-mason-jars.jpg",
-          "images/bricks.jpg",
-          "images/airplane-polaroid.jpg",
-          "images/abstract-small.jpg"
-        ];
-
-        var i = 0;
-        setInterval(function () {
-          // Returns 0, 1, 2, 3, 0, 1, 2, ....
-          i = (i + 1) % images.length;
-          pic.fadeOut(250, function () {
-            $(this).attr("src", images[i]);
-            $(this).fadeIn(1050);
-          });
-        }, 5000);
-      });
-    </script>
+    <script type="text/javascript" src="slideshow.js"></script>
   </head>
   <body class="body">
     <div class="header-wrapper">
@@ -68,7 +19,7 @@
     <div class="horizontal-menu-wrapper">
       <div class="horizontal-menu">
         <ul class="menu-links">
-          <li id="menu-home" href="index.html">Home</li>
+          <li id="menu-home"><a href="index.html">Home</a></li>
           <li id="menu-about" href="nav-menu-links/about.html">About</li>
           <li id="menu-contact" href="nav-menu-links/contact.html">Contact</li>
         </ul>
@@ -89,41 +40,31 @@
     </div>
     <div class="vertical-menu-wrapper">
       <ul class="vertical-menu">
-        <li class="vertical-links">
-          <a id="vertical-home" href="index.html">Home </a>
+        <li>
+          <a href="index.html">Home </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-mason" href="artwork-links/mason-jars.html">
-            Mason Jars
-          </a>
+        <li>
+          <a href="artwork-links/mason-jars.html"> Mason Jars </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-resin" href="artwork-links/resin-art.html">
-            Resin Art
-          </a>
+        <li>
+          <a href="artwork-links/resin-art.html"> Resin Art </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-carving" href="artwork-links/wood.html">
+        <li>
+          <a href="artwork-links/wood.html">
             Wood Carving, Etching & Burning
           </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-photography" href="artwork-links/photography.html">
-            Photography
-          </a>
+        <li>
+          <a href="artwork-links/photography.html"> Photography </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-sculptures" href="artwork-links/sculptures.html">
-            Sculptures
-          </a>
+        <li>
+          <a href="artwork-links/sculptures.html"> Sculptures </a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-collage" href="artwork-links/collage.html">Collage</a>
+        <li>
+          <a href="artwork-links/collage.html">Collage</a>
         </li>
-        <li class="vertical-links">
-          <a id="vertical-mix" href="artwork-links/mix-media.html">
-            Mix-Media
-          </a>
+        <li>
+          <a href="artwork-links/mix-media.html"> Mix-Media </a>
         </li>
       </ul>
     </div>
