@@ -7,4 +7,4 @@ Maria's accounts, the website address is not final or registered, the photos of 
 
 Maria Grass is a multi-media artist out of Portland, ME. The purpose of this website is to provide a place for Maria to display and sell her artwork, and share it with the world. It is a chance for anyone who might be interested too to connect with Maria via social media.
 
-Photos are sourced from www.unsplash.com but are not copyrighted to any artist or organization.
+Photos are sourced from www.unsplash.com but are not copyrighted to any artist or organization. Original site inspiration from Design Mashup Template.
