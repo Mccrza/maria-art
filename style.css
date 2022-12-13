@@ -4839,19 +4839,62 @@ body.white {
 .btn-default:hover {
   background-position: 50%;
 }
+
+.btn-primary {
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  width: 145px;
+}
+
+.btn-primary span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.btn-primary span:after {
+  content: "  \21D2";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -13px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover span {
+  padding-right: 15px;
+}
+
+.btn-primary:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .btn-primary {
   background-size: 200% auto;
+  transition: transform 0.3s ease-in-out, background-color 1s ease-in-out,
+    color 0.5s ease-in-out;
+  background-color: #0408ff98;
+  color: white;
 }
-.btn-primary,
-.btn-primary:hover {
-  background-image: -webkit-linear-gradient(left, #3a43f3, #080aac);
-  background-image: -o-linear-gradient(left, #3a43f3 0, #080aac 100%);
-  background-image: linear-gradient(90deg, #3a43f3 0, #080aac);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF6975",endColorstr="#FFFF0060",GradientType=1);
-}
+
+/*.btn-primary:hover {
+  background-color: #4413e7;
+  transition-property: background-color 3s;
+}*/
+
 .btn-primary:hover {
   background-position: 50%;
+  transform: scale(1.05);
+  box-shadow: 3px 3px 10px -1px #786b75f6;
+  background-color: #db47c4;
+  color: rgb(234, 218, 252);
+  font-weight: 900;
 }
 .btn-info {
   background-size: 200% auto;
@@ -4925,6 +4968,12 @@ h5 small {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+
+.social-round-icon.fa-icon.pintrest:before {
+  font-family: FontAwesome;
+  content: "\f231";
+}
+
 .social-round-icon:hover {
   background-color: #3a43f3;
   color: #fff;
@@ -4954,6 +5003,12 @@ h5 small {
   line-height: 50px;
   font-size: 24px;
 }
+
+.fa-icon.fa-icon-2x.pintrest:before {
+  font-family: FontAwesome;
+  content: "\f231";
+}
+
 .social-buttons .social-round-icon {
   margin-right: 10px;
 }
@@ -5093,4 +5148,185 @@ body {
   opacity: 0;
   transition: visibility 0s 0.5s, opacity 0.5s linear;
   visibility: hidden;
+}
+
+.blackflaglink {
+  transition: transform 0.3s;
+}
+
+.blackflaglink:hover {
+  transform: scale(1.35);
+  box-shadow: 3px 3px 10px -2px #3d357af6;
+  border-radius: 50%;
+}
+
+.mashuplink {
+  transition: transform 0.3s;
+}
+
+.mashuplink:hover {
+  transform: scale(1.35);
+  box-shadow: 2px 2px 10px -2px #3d357af6;
+}
+
+.card.portland-collage-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card-block.portland-collage-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  align-items: space-between;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+#left-icons-span-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+}
+
+.left-icon-1-span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex start;
+}
+
+.left-icon-2-span {
+  display: flex;
+  flex-direction: row;
+  align-self: flex start;
+}
+
+#greetings-span {
+  font-size: 20px;
+  font-family: el-piratos;
+  font-weight: 900;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-icons-span-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.right-icons-column-span .fa-regular .fa-sailboat2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#right-sailboat-selected {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-start;
+}
+
+.fa-regular.fa-sailboat::before {
+  font-family: FontAwesome;
+  content: "\e445";
+
+  margin-left: 0;
+  margin-top: 0;
+
+  font-size: 16px;
+}
+
+.fa-solid.fa-anchor::before {
+  font-family: FontAwesome;
+  content: "\f13d";
+
+  margin-left: 0;
+  margin-top: 0;
+
+  font-size: 16px;
+}
+
+.fa-regular.fa-sailboat2::before {
+  font-family: FontAwesome;
+  content: "\e445";
+
+  margin-right: 0;
+  margin-top: 0;
+
+  font-size: 16px;
+}
+
+.fa-solid.fa-anchor2::before {
+  font-family: FontAwesome;
+  content: "\f13d";
+
+  margin-right: 0;
+  margin-top: 0;
+
+  font-size: 16px;
+}
+
+.greetings::before {
+  text-align: center;
+  font-weight: 900;
+
+  font-size: 28px;
+  font-family: FontAwesome;
+}
+
+.portland-collage-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+  border: 0;
+  visibility: visible;
+  display: block;
+}
+
+@font-face {
+  font-family: vtks-curumin;
+  src: url(fonts/Vtks\ Curumin.ttf);
+}
+
+@font-face {
+  font-family: historia;
+  src: url(/fonts/historia-demo.regular.ttf);
+}
+
+@font-face {
+  font-family: hello-sailor;
+  src: url(/fonts/hello-sailor.html);
+}
+
+@font-face {
+  font-family: fisherman;
+  src: url(/fonts/Fisherman-Regular.otf);
+}
+
+@font-face {
+  font-family: el-piratos;
+  src: url(./fonts/el-piratos.ttf);
+}
+
+@font-face {
+  font-family: captain-jack;
+  src: url(/fonts/Captain\ Jack\ demo.ttf);
 }

@@ -15,17 +15,28 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script type="text/javascript" src="carousel.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+    crossorigin="anonymous">
 
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="./assets/apple-icon-180x180.png"
     />
-    <link href="./assets/favicon.ico" rel="icon" />
 
     <title>Maria Grass Artwork&copy;</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/very-pointy-blackflag-favicon.ico"
+    />
 
     <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/ee324a475e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body class="">
@@ -46,19 +57,36 @@
             <a class="fa-icon fa-icon-2x" href="https://twitter.com/" title="">
               <i class="fa fa-twitter"></i>
             </a>
-            <a class="fa-icon fa-icon-2x" href="https://dribbble.com/" title="">
-              <i class="fa fa-dribbble"></i>
-            </a>
-            <a
+             <a
               class="fa-icon fa-icon-2x"
               href="https://www.linkedin.com/"
               title=""
             >
               <i class="fa fa-linkedin"></i>
             </a>
-            <a class="fa-icon fa-icon-2x" href="https://vimeo.com/" title="">
-              <i class="fa fa-vimeo"></i>
+             <a
+              class="fa-icon fa-icon-2x pintrest"
+              href="https://pintrest.com/"
+              title=""
+            >
+              <i class="fa-brands fa-pintrest"></i>
             </a>
+            <a
+              class="fa-icon fa-icon-2x"
+              href="https://instagram.com/"
+              title=""
+            >
+              <i class="fa fa-instagram"></i>
+            </a>
+           </a>
+           
+            <a class="fa-icon fa-icon-2x" href="https://etsy.com/" title="">
+              <i class="fa fa-etsy"></i>
+            </a>
+            <a class="fa-icon fa-icon-2x" href="https://youtube.com/" title="">
+              <i class="fa fa-youtube"></i>
+            </a>
+           
           </p>
         </div>
       </header>
@@ -168,50 +196,22 @@
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-block">
-                <h2>Inspired by Maine, USA</h2>
-                <div class="row">
-                  <div class="col-md-4">
+            <div class="card portland-collage-card">
+              <div class="card-block portland-collage-block">
+                <div id="left-icons-span-container">
+               <span class="left-icon-1-span"><i class="fa-solid fa-anchor"></i></span>
+                <span class="left-icon-2-span"><i class="fa-regular fa-sailboat"></i></span></div>
+                  <div id="greetings-span-container"><span id="greetings-span">
+                  <p>Greetings<br>from<br>
+                    Portland, Maine USA!</p></span></div>
+                <div class="right-icons-span-container"><span class="right-icons-column-span">
+                  <i id="right-sailboat-selected" class="fa-regular fa-sailboat2"></i>
+                  <i id="right-anchor-selected" class="fa-solid fa-anchor2"></i></span></div>
                     <img
-                      src="./assets/images/img-02.jpg"
-                      class="img-responsive"
-                      alt=""
+                      src="images/collage.jpg"
+                      class="portland-collage-image"
+                      alt="portland maine collage"
                     />
-                    <h3 class="h5"></h3>
-                    <p><b>Maine</b></p>
-                  </div>
-                  <div class="col-md-4">
-                    <img
-                      src="./assets/images/img-03.jpg"
-                      class="img-responsive"
-                      alt=""
-                    />
-                    <h3 class="h5">Portland, ME</h3>
-                    <p>Mural</p>
-                  </div>
-                  <div class="col-md-4">
-                    <img
-                      src="./assets/images/img-04.jpg"
-                      class="img-responsive"
-                      alt=""
-                    />
-                    <h3 class="h5">"Octopus"</h3>
-                    <p>2022</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-block">
-                <h2>Portfolio</h2>
-                <h3 class="h5">
-                  Collection of Selected Works
-                  <br /><br /><small
-                    >Examples in several of Maria's practiced disciplines</small
-                  >
-                </h3>
               </div>
             </div>
 
@@ -250,6 +250,47 @@
                     local artist!</small
                   >
                 </h3>
+              </div>
+            </div>
+
+              <div class="card">
+              <div class="card-block">
+                <h2>Inspired by Maine, USA</h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img
+                      src="./assets/images/img-02.jpg"
+                      class="img-responsive"
+                      alt=""
+                      height="350px"
+                      width="460px"
+                    />
+                    <h3 class="h5"></h3>
+                    <p><b></b></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      src="./assets/images/img-03.jpg"
+                      class="img-responsive"
+                      alt=""
+                      height="350px"
+                      width="460px"
+                    />
+                    <h3 class="h5">Portland, ME</h3>
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      src="./assets/images/img-04.jpg"
+                      class="img-responsive"
+                      alt=""
+                      height="350px"
+                      width="460px"
+                    />
+                    <h3 class="h5">""</h3>
+                    <p>2022</p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -320,6 +361,15 @@
                 <div class="row">
                   <div class="col-md-3">
                     <p class="social-buttons">
+                      <a href="https://facebook.com/" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-facebook"></i></span
+                        >@Maria_Grassi</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
                       <a href="https://twitter.com/" title=""
                         ><span class="social-round-icon fa-icon"
                           ><i class="fa fa-twitter"></i></span
@@ -338,9 +388,36 @@
                   </div>
                   <div class="col-md-3">
                     <p class="social-buttons">
-                      <a href="https://dribbble.com/" title=""
+                      <a href="https://pintrest.com/" title=""
+                        ><span class="social-round-icon fa-icon pintrest"
+                          ><i class="fa-brands fa-pintrest"></i></span
+                        >Maria Grassi</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="https://instagram.com/" title=""
                         ><span class="social-round-icon fa-icon"
-                          ><i class="fa fa-dribbble"></i></span
+                          ><i class="fa fa-instagram"></i></span
+                        >Maria Grassi</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="https://etsy.com/" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-etsy"></i></span
+                        >Maria Grassi</a
+                      >
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="social-buttons">
+                      <a href="https://youtube.com/" title=""
+                        ><span class="social-round-icon fa-icon"
+                          ><i class="fa fa-youtube"></i></span
                         >Maria Grassi</a
                       >
                     </p>
@@ -378,7 +455,7 @@
                   </div>
                   <div class="form-group">
                     <button type="submit" class="btn btn-primary">
-                      Send message
+                      <span class="button-span">Send message</span>
                     </button>
                   </div>
                 </form>
@@ -392,7 +469,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <p><img src="./assets/images/mashup-icon.svg" alt="" /></p>
+            <p> < &nbsp;&nbsp;&nbsp;<img class="mashuplink" src="./assets/images/mashup-icon.svg" alt="" /> 
+              &nbsp;&nbsp;<|>&nbsp;&nbsp;
+             <a href="https://github.com/Mcrza"> <img class="blackflaglink" src="assets/blackflag.svg" 
+              alt="black flag/mcrza design" width="37px" height="37px"/></a> &nbsp;&nbsp;&nbsp;> </p>
 
             <p>
               ©All right reserved.&nbsp;
@@ -430,13 +510,7 @@
               >
                 <i class="fa fa-twitter"></i>
               </a>
-              <a
-                class="fa-icon fa-icon-2x"
-                href="https://instagram.com/"
-                title=""
-              >
-                <i class="fa fa-dribbble"></i>
-              </a>
+             
               <a
                 class="fa-icon fa-icon-2x"
                 href="https://www.linkedin.com/"
@@ -444,8 +518,29 @@
               >
                 <i class="fa fa-linkedin"></i>
               </a>
-              <a class="fa-icon fa-icon-2x" href="https://vimeo.com/" title="">
-                <i class="fa fa-vimeo"></i>
+               <a
+                class="fa-icon fa-icon-2x pintrest"
+                href="https://pintrest.com/"
+                title=""
+              >
+                <i class="fa-brands fa-pintrest"></i>
+              </a>
+              <a class="fa-icon fa-icon-2x" href="https://instagram.com/" title="">
+                <i class="fa fa-instagram"></i>
+              </a>
+               <a
+                class="fa-icon fa-icon-2x"
+                href="https://etsy.com/"
+                title=""
+              >
+                <i class="fa fa-etsy"></i>
+              </a>
+               <a
+                class="fa-icon fa-icon-2x"
+                href="https://youtube.com/"
+                title=""
+              >
+                <i class="fa fa-youtube"></i>
               </a>
             </p>
           </div>
@@ -458,7 +553,19 @@
         scrollRevelation(".card");
       });
     </script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+    
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
+integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" 
+crossorigin="anonymous"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -472,7 +579,7 @@
 </script>
 
 -->
-    <script type="text/javascript" src="main.js"></script>
+
   </body>
 </html>
 
